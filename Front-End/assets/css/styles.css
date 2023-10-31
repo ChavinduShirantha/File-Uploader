@@ -1,19 +1,19 @@
 
-#form{
+#form {
     position: relative;
     left: 0;
     right: 0;
     margin: auto;
 }
 
-#uploadContainer{
+#uploadContainer {
     position: relative;
     left: 0;
     right: 0;
     margin: auto;
 }
 
-#btnUpload{
+#btnUpload {
     position: relative;
     left: 0;
     right: 0;
@@ -24,3 +24,10 @@
     width: 500px;
     height: 300px;
 }
+
+/*
+#nicImg {
+    background: url("/assets/img/1.png");
+    background-size: cover;
+    background-position: center;
+}*/
