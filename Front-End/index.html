@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>File Uploader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+<section class="container-fluid">
+    <div class="row">
+        <div class="d-flex mt-5">
+            <form id="form">
+                <div id="uploadContainer">
+                    <div class="image-context border border-2 rounded-3" id="img"></div>
+                    <input type="file" name="upload_Img" class="form-control col-8" id="upload_Img">
+                    <small class="control-error text-danger"></small>
+                </div>
+                <button type="button" id="btnUpload" class="btn btn-outline-primary mt-3">Upload File</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
